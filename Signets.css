@@ -1,0 +1,19 @@
+.Signets {
+  text-align: left;
+  background-color: red;
+  color: white;
+  margin: 10px;
+}
+
+.Signets .titre {
+  font-size: 25px;
+}
+
+.Signets p {
+  padding-left: 12px;
+}
+
+.Signets img {
+  width: 100%;
+}
+/*# sourceMappingURL=Signets.css.map */

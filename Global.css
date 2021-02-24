@@ -1,0 +1,22 @@
+.Global {
+  font-family: sans-serif;
+  padding: 0;
+}
+
+.bouton {
+  background-color: #2e2e2e;
+  color: white;
+  position: sticky;
+  z-index: 10;
+  left: 1250px;
+  bottom: 30px;
+  border-style: none;
+  border-radius: 50%;
+  font-size: 20px;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=Global.css.map */
