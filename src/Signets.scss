@@ -15,6 +15,24 @@
         width: 100%;
       }
 }
+.sort {
+    position: absolute;
+    z-index: 8;
+    background-color: black;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-align: center;
+    opacity: 0.7;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.leSignet p:last-child {
+    text-align: right;
+}
 .Signets:nth-of-type(1) {
     background-color: black;
 }
@@ -44,5 +62,5 @@
 }
 .Signets:nth-of-type(10) {
     background-color: rgb(185, 185, 185);
-    color: black;
+    color: rgb(58, 58, 58);
 }
