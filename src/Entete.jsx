@@ -1,4 +1,5 @@
 import './Entete.scss';
+import Avatar from '@material-ui/core/Avatar';
 
 export default function Entete(props) {
 return (
@@ -9,6 +10,7 @@ return (
     
     <ul>
         <li>Utilisateur</li>
+        <li><Avatar /></li>
     </ul>
 </header>
 );

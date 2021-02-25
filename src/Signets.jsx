@@ -1,4 +1,5 @@
 import './Signets.scss';
+import IconButton from '@material-ui/core/IconButton';
 
 
 export default function Signets(props) {
@@ -8,7 +9,10 @@ export default function Signets(props) {
           <div className="leSignet">
             <p className="titre">{props.titre}</p>
             <p className="datemodif"><b>{props.datemodif}</b></p>
+            <p><IconButton></IconButton></p>
           </div>
+          
+          
         </li>
       );
     

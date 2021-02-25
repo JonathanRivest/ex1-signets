@@ -1,8 +1,8 @@
 .Signets {
   text-align: left;
-  background-color: red;
   color: white;
   margin: 10px;
+  box-shadow: -1px 3px 7px 0px #000000;
 }
 
 .Signets .titre {
@@ -15,5 +15,46 @@
 
 .Signets img {
   width: 100%;
+}
+
+.Signets:nth-of-type(1) {
+  background-color: black;
+}
+
+.Signets:nth-of-type(2) {
+  background-color: green;
+}
+
+.Signets:nth-of-type(3) {
+  background-color: deepskyblue;
+}
+
+.Signets:nth-of-type(4) {
+  background-color: red;
+}
+
+.Signets:nth-of-type(5) {
+  background-color: #dbb50b;
+}
+
+.Signets:nth-of-type(6) {
+  background-color: green;
+}
+
+.Signets:nth-of-type(7) {
+  background-color: deepskyblue;
+}
+
+.Signets:nth-of-type(8) {
+  background-color: black;
+}
+
+.Signets:nth-of-type(9) {
+  background-color: #cc23be;
+}
+
+.Signets:nth-of-type(10) {
+  background-color: #b9b9b9;
+  color: black;
 }
 /*# sourceMappingURL=Signets.css.map */

@@ -1,8 +1,9 @@
 .Signets {
     text-align: left;
-    background-color: red;
     color: white;
     margin: 10px;
+    -webkit-box-shadow: -1px 3px 7px 0px #000000; 
+    box-shadow: -1px 3px 7px 0px #000000; //html-css-js.com
     .titre {
         font-size: 25px;
     }
@@ -13,4 +14,35 @@
     img {
         width: 100%;
       }
+}
+.Signets:nth-of-type(1) {
+    background-color: black;
+}
+.Signets:nth-of-type(2) {
+    background-color: green;
+}
+.Signets:nth-of-type(3) {
+    background-color: deepskyblue;
+}
+.Signets:nth-of-type(4) {
+    background-color: red;
+}
+.Signets:nth-of-type(5) {
+    background-color: rgb(219, 181, 11);
+}
+.Signets:nth-of-type(6) {
+    background-color: green;
+}
+.Signets:nth-of-type(7) {
+    background-color: deepskyblue;
+}
+.Signets:nth-of-type(8) {
+    background-color: black;
+}
+.Signets:nth-of-type(9) {
+    background-color: rgb(204, 35, 190);
+}
+.Signets:nth-of-type(10) {
+    background-color: rgb(185, 185, 185);
+    color: black;
 }
